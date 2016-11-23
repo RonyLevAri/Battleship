@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\ronylevari\\AndroidStudioProjects\\Battleship\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\game_layout.xml",
+        "source": "C:\\Users\\ronylevari\\AndroidStudioProjects\\Battleship\\app\\src\\main\\res\\layout-land\\game_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\ronylevari\\AndroidStudioProjects\\Battleship\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\content_main.xml",
+        "source": "C:\\Users\\ronylevari\\AndroidStudioProjects\\Battleship\\app\\src\\main\\res\\layout-land\\content_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\ronylevari\\AndroidStudioProjects\\Battleship\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\game_over_layout.xml",
+        "source": "C:\\Users\\ronylevari\\AndroidStudioProjects\\Battleship\\app\\src\\main\\res\\layout-land\\game_over_layout.xml"
+    }
+]

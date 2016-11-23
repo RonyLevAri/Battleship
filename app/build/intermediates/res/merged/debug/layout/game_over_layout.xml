@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_padding"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.ronylevari.battleshipapp.GameOver"
+    android:background="@drawable/background"
+    android:layout_gravity="center"
+    >
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/logo_margin_top"
+        android:layout_marginBottom="@dimen/logo_margin_top"
+        android:src="@drawable/title"/>
+
+    <TextView
+        android:id="@+id/whoWon"
+        android:layout_marginTop="@dimen/logo_margin_top"
+        android:layout_marginBottom="@dimen/activity_padding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/icon"
+        android:layout_centerHorizontal="true"
+        android:textSize="60sp"
+        android:text="You Won!"
+        android:textStyle="bold"
+        />
+
+    <include android:id="@+id/restart"
+        layout="@layout/restart_btn"
+        android:layout_marginTop="45dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/whoWon"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>

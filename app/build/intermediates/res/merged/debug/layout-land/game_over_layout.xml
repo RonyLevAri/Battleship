@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:layout_gravity="center">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/logo_margin_top"
+        android:src="@drawable/title"/>
+
+    <TextView
+        android:id="@+id/whoWon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/icon"
+        android:layout_centerHorizontal="true"
+        android:textSize="60sp"
+        android:text="You Won!"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+
+    <include android:id="@+id/restart"
+        layout="@layout/restart_btn"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/whoWon"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        />
+
+</LinearLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/backgroundColor">
+
+    <RadioGroup
+        android:id="@+id/difficultyGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:clickable="false"
+        android:transitionGroup="false"
+        >
+
+        <RadioButton
+            android:id="@+id/Admiral"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:textSize="30sp"
+            android:button="@drawable/custom_radiobutton"
+            android:paddingLeft="10dp"
+            android:layout_marginBottom="6dp"
+            android:text="Admiral"
+            android:textColor="@color/textColor"
+            />
+
+        <RadioButton
+            android:id="@+id/Captain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:textSize="30sp"
+            android:button="@drawable/custom_radiobutton"
+            android:paddingLeft="10dp"
+            android:layout_marginBottom="6dp"
+            android:text="Captain"
+            android:textColor="@color/textColor"
+            />
+
+        <RadioButton
+            android:id="@+id/Lieutenant"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:textSize="30sp"
+            android:button="@drawable/custom_radiobutton"
+            android:paddingLeft="10dp"
+            android:layout_marginBottom="6dp"
+            android:text="Lieutenant"
+            android:textColor="@color/textColor"
+            />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/difficultyApplyBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/apply"
+        android:textSize="30sp"
+        android:layout_marginBottom="6dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:textColor="@color/textColor"
+        />
+
+</LinearLayout>
+
+

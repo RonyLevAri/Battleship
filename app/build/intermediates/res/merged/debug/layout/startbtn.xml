@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:layout_gravity="center">
+
+    <ImageView
+        android:id="@+id/start_button_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/btnblank"
+        android:gravity="center"
+        />
+
+    <ImageView
+        android:id="@+id/missile_btn_image"
+        android:layout_width="wrap_content"
+        android:src="@drawable/missiles"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/start_button_image"/>
+
+    <TextView
+        android:id="@+id/restart_button_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:textColor="@color/textColor"
+        android:textStyle="bold"
+        android:text="@string/btn_start"
+        android:layout_alignStart="@+id/start_button_image"
+        android:layout_alignEnd="@+id/start_button_image"
+        android:layout_alignBottom="@+id/start_button_image"
+        android:layout_alignTop="@+id/start_button_image"
+        android:layout_toRightOf="@+id/missile_btn_image"
+        android:gravity="center"
+        />
+</RelativeLayout>
